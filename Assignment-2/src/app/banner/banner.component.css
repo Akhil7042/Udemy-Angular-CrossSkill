@@ -1,0 +1,106 @@
+#rectangle-1{
+    width:1200px;
+    height:500px;
+    border: solid;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+
+}
+
+#rectangle-2{
+    width:1100px;
+    height:400px;
+    border: solid;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+
+}
+
+#rectangle-3{
+    width:1000px;
+    height:300px;
+    border: solid;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+
+}
+
+#rectangle-4{
+    width:900px;
+    height:200px;
+    border: solid;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+
+}
+
+#rectangle-5{
+    /* width:800px;
+    height:100px;
+    border: solid;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto; */
+
+
+}
+
+.floating-banner {
+   
+    width:800px;
+    height:100px;
+    border: solid;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* background-color: #f0f0f0; */
+    padding: 10px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    z-index: 9999;
+  }
+  
+  .rotate {
+    animation: rotate 10s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

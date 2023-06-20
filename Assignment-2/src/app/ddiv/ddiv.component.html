@@ -1,0 +1,16 @@
+
+  
+  <ng-container *ngFor="let album of albumData; let i = index">
+    <div
+      class="box"
+      appAmIvisible
+      (elementVisible)="getAlbumData($any($event))"
+      [isTargetElement]="album.id == albumData.length"
+    >
+      <h3>Photo {{ album.id }}</h3>
+      <h4>{{ album.title }}</h4>
+      <img style="width:20%;height:20%;" src="{{ album.url }}" />
+    </div>
+    <button (click)="onButtonClick(album.id)">Button {{ album.id }}</button>
+  </ng-container>
+  

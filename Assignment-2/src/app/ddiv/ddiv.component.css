@@ -1,0 +1,15 @@
+div.box:last-child {
+    background-color: yellow;
+  }
+  
+  div.message {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: orange;
+  }
+  

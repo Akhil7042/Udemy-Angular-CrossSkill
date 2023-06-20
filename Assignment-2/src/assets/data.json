@@ -1,0 +1,26 @@
+[
+  {
+    "name": "John",
+    "class": 7,
+    "section": "C",
+    "sub1": 50,
+    "sub2": 80,
+    "sub3": 55
+  },
+  {
+    "name": "Akhil",
+    "class": 2,
+    "section": "A",
+    "sub1": 40,
+    "sub2": 83,
+    "sub3": 57
+  },
+  {
+    "name": "Tom",
+    "class": 11,
+    "section": "B",
+    "sub1": 41,
+    "sub2": 53,
+    "sub3": 67
+  }
+]
