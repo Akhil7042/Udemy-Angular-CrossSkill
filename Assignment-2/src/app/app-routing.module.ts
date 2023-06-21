@@ -27,6 +27,11 @@ const routes: Routes = [
     path: 'timer',
     loadChildren: () =>
       import('./timer/timer.module').then((m) => m.TimerModule),
+  },
+  {
+    path: 'timer/sub',
+    loadChildren: () =>
+      import('./timer-sub/timer-sub.module').then((m) => m.TimerSubModule),
   }
 ];
 
